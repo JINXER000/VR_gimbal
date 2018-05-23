@@ -1,0 +1,11 @@
+.\rvmdk\pwm.o: driverlib\pwm.c
+.\rvmdk\pwm.o: H:\MDK5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\rvmdk\pwm.o: H:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\rvmdk\pwm.o: ..\11BEGIN\inc/hw_ints.h
+.\rvmdk\pwm.o: ..\11BEGIN\inc/hw_memmap.h
+.\rvmdk\pwm.o: ..\11BEGIN\inc/hw_pwm.h
+.\rvmdk\pwm.o: ..\11BEGIN\inc/hw_sysctl.h
+.\rvmdk\pwm.o: ..\11BEGIN\inc/hw_types.h
+.\rvmdk\pwm.o: ..\11BEGIN\driverlib/debug.h
+.\rvmdk\pwm.o: ..\11BEGIN\driverlib/interrupt.h
+.\rvmdk\pwm.o: ..\11BEGIN\driverlib/pwm.h

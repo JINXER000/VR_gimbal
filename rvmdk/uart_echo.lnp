@@ -1,0 +1,16 @@
+--cpu Cortex-M4.fp
+".\rvmdk\startup_rvmdk.o"
+".\rvmdk\chuankou.o"
+".\rvmdk\main.o"
+".\rvmdk\duoji.o"
+".\rvmdk\yaogan.o"
+".\rvmdk\buttons.o"
+".\rvmdk\ramp.o"
+".\rvmdk\mypid.o"
+".\driverlib\rvmdk\driverlib.lib"
+".\rvmdk\uart.o"
+".\rvmdk\pwm.o"
+--library_type=microlib --strict --scatter "uart_echo.sct"
+--entry Reset_Handler --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\rvmdk\uart_echo.map" -o .\rvmdk\uart_echo.axf
