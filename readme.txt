@@ -1,26 +1,10 @@
-UART Echo
+TI杯一等奖作品
 
-This example application utilizes the UART to echo text.  The first UART
-(connected to the USB debug virtual serial port on the evaluation board)
-will be configured in 115,200 baud, 8-n-1 mode.  All characters received on
-the UART are transmitted back to the UART.
+搭配上位机使用更佳
 
--------------------------------------------------------------------------------
+板卡：TIVA
 
-Copyright (c) 2013-2017 Texas Instruments Incorporated.  All rights reserved.
-Software License Agreement
+功能：摇杆控制，头部跟随，自稳定，上位机控制
 
-Texas Instruments (TI) is supplying this software for use solely and
-exclusively on TI's microcontroller products. The software is owned by
-TI and/or its suppliers, and is protected under applicable copyright
-laws. You may not combine this software with "viral" open-source
-software in order to form a larger program.
 
-THIS SOFTWARE IS PROVIDED "AS IS" AND WITH ALL FAULTS.
-NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT
-NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE APPLY TO THIS SOFTWARE. TI SHALL NOT, UNDER ANY
-CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL, OR CONSEQUENTIAL
-DAMAGES, FOR ANY REASON WHATSOEVER.
-
-This is part of revision 2.1.4.178 of the EK-TM4C1294XL Firmware Package.
+				author: 州
